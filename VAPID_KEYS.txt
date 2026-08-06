@@ -1,0 +1,5 @@
+VAPID PUBLIC KEY (goes in the app):
+BBVFLaJhNy8JyyYiGPGOI7hFk9GVmgzWxo7ZSy5_Uo44xTg91TlQAppm8Y96xnmUHcr-4u81w4YxVrtZqqCSML8
+
+VAPID PRIVATE KEY (goes in the server, keep secret):
+J411QS4RbHfRb7zVOolQLAaCvcgYL98B4TgGVj_fb6o
