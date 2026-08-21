@@ -35,6 +35,13 @@
   .by{text-align:center; font-size:9.5px; letter-spacing:.34em; text-indent:.34em; text-transform:uppercase;
     color:var(--gold-soft); margin-top:8px;}
   .divider{display:flex; align-items:center; gap:12px; margin:16px auto 22px; max-width:400px;}
+
+  .app-cta{display:block; text-align:center; text-decoration:none; margin:0 0 22px;
+    background:linear-gradient(180deg, var(--gold-soft), var(--gold-deep)); border-radius:6px;
+    padding:14px 18px; box-shadow:0 10px 24px rgba(0,0,0,.35);}
+  .app-cta-title{display:block; font-family:"Cormorant Garamond",serif; font-weight:600; font-size:19px; color:#2a2118;}
+  .app-cta-sub{display:block; font-family:"Jost",sans-serif; font-size:11px; letter-spacing:.04em; color:#3a2f1e; margin-top:3px;}
+  .app-cta:active{opacity:.85;}
   .divider::before,.divider::after{content:""; flex:1; height:1px; background:linear-gradient(90deg,transparent,var(--gold));}
   .divider::after{transform:scaleX(-1);}
   .divider .dot{width:6px; height:6px; transform:rotate(45deg); background:var(--gold);}
@@ -133,6 +140,11 @@
     <p class="prog">Weekly Entertainment Programme</p>
     <div class="by">Topteam Entertainment</div>
     <div class="divider"><span class="dot"></span></div>
+
+    <a class="app-cta" href="https://brown-white.github.io/Entertainment/" target="_blank" rel="noopener">
+      <span class="app-cta-title">Open the Amarina Guest App</span>
+      <span class="app-cta-sub">Book activities · Tickets · Chat with our team</span>
+    </a>
 
     <div id="app"><div class="loading">Loading programme…</div></div>
 
